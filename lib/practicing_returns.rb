@@ -12,7 +12,7 @@ end
 
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
 
-def hello(array)
+hello(array)
   i=l 
   collection = []
   while i < array.length
